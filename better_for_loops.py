@@ -10,7 +10,7 @@ for index, stocktaking in enumerate(zip(stored_names, stored_numbers)):
 #! 1 I used the zip method to merge both of the lists.
 #! 2 With both of lists reduced to one, I used the enumerate method to give them an ID.
 #! 2.1 The index value is assigned to each value of the stocktaking variable (returned as a tuple like below).
-#?      Result: Now the result would be ({index}, ('name', num)).
+    #? Result: Now the result would be ({index}, ('name', num)).
 #! 3 I printed it on a f string and telled to python how he should read it, first the name with [0] and [1] for the number.
 
 #?? Final result:
