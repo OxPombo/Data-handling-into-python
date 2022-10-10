@@ -6,7 +6,9 @@ for index, stocktaking in enumerate(zip(stored_names, stored_numbers)):
     print(f'[ID {index}] - {stocktaking[0]}: {stocktaking [1]}') 
 
 
-''' #* Explanation: 
+''' 
+    #* Explanation: 
+    
 #! 1 I used the zip method to merge both of the lists.
 #! 2 With both of lists reduced to one, I used the enumerate method to give them an ID.
 #! 2.1 The index value is assigned to each value of the stocktaking variable (returned as a tuple like below).
