@@ -11,4 +11,4 @@ for item in chess_board:
 #! 1 The f string appends the letter and the number to the list.
 #! 2 The number goes untill 8 to make it increase in line.
 #! 3 Beside it, the letter increase for each column.
-#! 4 I used slicing to make the step negative to consequently inverse the order.
+#! 4 I used slicing to make the step negative to consequently reverse the order.
